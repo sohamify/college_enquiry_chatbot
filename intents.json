@@ -1,0 +1,82 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening"],
+        "responses": ["Hey there! Ready to explore the world of engineering?", "Hi! What brings you to GCECT’s digital doorstep today?"]
+      },
+      {
+        "tag": "about_gcect",
+        "patterns": ["What is GCECT?", "Tell me about GCECT", "What does GCECT stand for?"],
+        "responses": ["GCECT stands for Government College of Engineering & Ceramic Technology. Established in 1941, it’s older than most of your professors and still going strong!"]
+      },
+      {
+        "tag": "contact_info",
+        "patterns": ["How can I contact GCECT?", "What is the contact number of GCECT?", "Email of GCECT?"],
+        "responses": [
+          "You can call us at 033-2370 1263, or if you prefer writing over talking, drop an email at principal.gcect@gcect.ac.in. Just don’t expect an instant reply—professors are busy people!"
+        ]
+      },
+      {
+        "tag": "courses_offered",
+        "patterns": ["What courses are offered?", "List of courses in GCECT", "Programs at GCECT"],
+        "responses": [
+          "GCECT offers B.Tech in Ceramic Technology, Information Technology, and Computer Science & Engineering. For the brave souls who love research, we have M.Tech and Ph.D. programs too!"
+        ]
+      },
+      {
+        "tag": "admission_process",
+        "patterns": ["How to get admission in GCECT?", "Admission procedure?", "Eligibility for admission?"],
+        "responses": [
+          "Getting in is simple: ace WBJEE for B.Tech or GATE for M.Tech. Or, you know, invent something groundbreaking and get an honorary admission (just kidding, don’t quote me on that)."
+        ]
+      },
+      {
+        "tag": "exam_notices",
+        "patterns": ["Exam schedule", "Upcoming exams", "Exam notice for GCECT"],
+        "responses": [
+          "Exams are like taxes—inevitable and stressful. Check the latest notices on our website and brace yourself!"
+        ]
+      },
+      {
+        "tag": "hostel_facilities",
+        "patterns": ["Is hostel available?", "Hostel facilities in GCECT", "How to apply for hostel?"],
+        "responses": [
+          "Yes, hostel life is an experience you won’t forget—good food, great friends, and occasional power cuts for that true ‘survival mode’ feel. Apply early to grab a spot!"
+        ]
+      },
+      {
+        "tag": "library_facilities",
+        "patterns": ["Does GCECT have a library?", "Library facilities?", "Library timings?"],
+        "responses": [
+          "Yes, our library is stocked with enough books to build a fort. It’s open from 9 AM to 6 PM, so no excuses for missing your research deadlines!"
+        ]
+      },
+      {
+        "tag": "canteen_food",
+        "patterns": ["How is the food in the canteen?", "Is the canteen food good?", "Menu in GCECT canteen?"],
+        "responses": [
+          "The canteen food is a surprise every day—sometimes delightful, sometimes a test of your willpower. But hey, it’s affordable and fills you up!"
+        ]
+      },
+      {
+        "tag": "sports_facilities",
+        "patterns": ["Does GCECT have sports facilities?", "What sports are available?", "Sports events in GCECT?"],
+        "responses": [
+          "Yes! From cricket to chess, we have it all. If running to class before the professor shuts the door was a sport, we’d have Olympic-level champions!"
+        ]
+      },
+      {
+        "tag": "festivals_events",
+        "patterns": ["What festivals are celebrated at GCECT?", "Any events at GCECT?", "Annual fest details?"],
+        "responses": [
+          "From technical fests to cultural nights, GCECT has it all. Just make sure to attend—free food and fun are guaranteed!"
+        ]
+      },
+      {
+        "tag": "farewell",
+        "patterns": ["Bye", "Goodbye", "See you later"],
+        "responses": ["Goodbye! Don’t forget to come back—I promise I won’t give you homework!", "See you later! And remember, caffeine is your best friend during exams."]
+      }
+    ]
+  }
